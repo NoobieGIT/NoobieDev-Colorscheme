@@ -1,0 +1,49 @@
+{
+    "name": "Noobie Dev Theme",
+    "type": "dark",
+    "colors": {
+        "editor.background": "#161616",
+        "editor.foreground": "#ffffff",
+        "editor.lineHighlightBackground": "#333333",
+        "editorCursor.foreground": "#aeafad",
+        "editorWhitespace.foreground": "#3b3a32"
+    },
+    "tokenColors": [
+        {
+            "scope": "comment",
+            "settings": {
+                "foreground": "#505050"
+            }
+        },
+        {
+            "scope": "string",
+            "settings": {
+                "foreground": "#35bd00"
+            }
+        },
+        {
+            "scope": [
+                "keyword",
+                "storage.type"
+            ],
+            "settings": {
+                "foreground": "#0072dd"
+            }
+        },
+        {
+            "scope": "variable",
+            "settings": {
+                "foreground": "#ffffff"
+            }
+        },
+        {
+            "scope": [
+                "entity.name.function",
+                "support.function"
+            ],
+            "settings": {
+                "foreground": "#cc0e0e"
+            }
+        }
+    ]
+}
